@@ -342,10 +342,11 @@ for(i in 1:nrow(tt_mod$theta)){
   max_topic <- c(max_topic, which.max(tt_mod$theta[i,]))
 }
 # reassign that vector to our df
-tt_corp$max_topic <- max_topic
-# see how often each topic is discussed by year
-tt_corp %>% 
-  group_by(year, max_topic) %>% 
+df_omit <- trump_tweets[trump_tweets$uid %in% tt_corp_edit$uid,]
+df_omit$max_topic <- max_topic
+# see how often each topic is discussed
+df_omit %>% 
+  group_by(max_topic) %>% 
   summarise(n = n())
 
 # Time permitting, change the settings. Try a different number of topics 
