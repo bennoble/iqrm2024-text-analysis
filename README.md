@@ -81,6 +81,7 @@ In this session, we will discuss the second major framework for conceptualizing 
 - Rodriguez, Pedro L., and Arthur Spirling. 2022. “Word Embeddings: What Works, What Doesn’t, and How to Tell the Difference for Applied Research.” The Journal of Politics 84(1): 101–15.
 - Rodriguez, Pedro L., Arthur Spirling, and Brandon M. Stewart. 2023. “Embedding Regression: Models for Context-Specific Description and Inference.” American Political Science Review 117(4): 1255–74.
 - Application: Bellodi, Luca. 2023. “A Dynamic Measure of Bureaucratic Reputation: New Data for New Theory.” American Journal of Political Science 67(4): 880–97. 
+- [Mapping the Mind of a Large Language Model](https://www.anthropic.com/news/mapping-mind-language-model) by Anthropic
 
 ## Hack-A-Thon
 In this concluding session, we will apply our newfound text analysis skills in a fast-paced and (hopefully) fun hack-a-thon. In the first half of class, you will work in groups to develop and test a hypothesis using your expert text analysis skills. In the second half, you will present your approach and findings to the class.
